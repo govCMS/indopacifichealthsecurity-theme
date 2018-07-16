@@ -1,0 +1,40 @@
+name = GovCMS Subtheme
+description = This is a sub-theme of theme govcms barton.
+core = 7.x
+base theme = govcms_barton
+
+;scripts[] = responsive_navigation/responsive-nav.js
+scripts[] = js/menumaker.js
+scripts[] = js/select2.full.min.js
+;scripts[] = js/select2.min.js
+scripts[] = js/jquery.mCustomScrollbar.min.js
+scripts[] = js/custom.js
+
+;stylesheets[all][] = responsive_navigation/responsive-nav.css
+stylesheets[all][] = css/menumaker.css
+stylesheets[all][] = css/select2.min.css
+stylesheets[all][] = css/jquery.mCustomScrollbar.min.css
+stylesheets[all][] = css/custom-styles.css
+stylesheets[all][] = css/media.css
+
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+regions[header]         = Header
+regions[navigation]     = Navigation bar
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer
+regions[bottom]         = Page bottom

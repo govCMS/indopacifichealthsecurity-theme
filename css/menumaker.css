@@ -1,0 +1,406 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+.header .menu-name-main-menu,
+.header .menu-name-main-menu ul,
+.header .menu-name-main-menu ul li,
+.header .menu-name-main-menu ul li a,
+.header .menu-name-main-menu #menu-button{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.header .menu-name-main-menu:after,
+.header .menu-name-main-menu > ul:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.header .menu-name-main-menu #menu-button{
+  display: none;
+}
+.header .menu-name-main-menu{
+  background:none;
+}
+.header .menu-name-main-menu > ul > li{
+  float: left;
+  max-width: 140px;
+  text-align: center;
+  height: 100px;
+  display: table;
+  vertical-align: middle;
+}
+.header .menu-name-main-menu.align-center > ul{
+  font-size: 0;
+  text-align: center;
+}
+.header .menu-name-main-menu.align-center > ul > li{
+  display: inline-block;
+  float: none;
+}
+.header .menu-name-main-menu.align-center ul ul{
+  text-align: left;
+}
+.header .menu-name-main-menu.align-right > ul > li{
+  float: right;
+}
+.header .menu-name-main-menu > ul > li > a{
+  padding:0px 21px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: #fff;
+  font-weight:800;
+  text-transform: capitalize;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  line-height:16px;
+  vertical-align: middle;
+  display: table-cell;
+}
+.header .menu-name-main-menu > ul > li:hover > a{
+  color: #ffffff; background-color:#42aad6;
+}
+/*.header .menu-name-main-menu > ul > li.has-sub > a{
+  padding-right: 30px;
+}*/
+.header .menu-name-main-menu > ul > li.has-sub > a:after{
+  position: absolute;
+  top: 22px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #fff;
+  content: '';
+}
+.header .menu-name-main-menu > ul > li.has-sub > a:before{
+  position: absolute;
+  top: 19px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #fff;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.header .menu-name-main-menu > ul > li.has-sub:hover > a:before{
+  top: 23px;
+  height: 0;
+}
+.header .menu-name-main-menu ul ul{
+  position: absolute;
+  left: -9999px;
+}
+.header .menu-name-main-menu.align-right ul ul{
+  text-align: right;
+}
+.header .menu-name-main-menu ul ul li{
+/*  height: 0;*/
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.header .menu-name-main-menu li:hover > ul{
+  left: 0;
+  top: 100px;
+}
+.header .menu-name-main-menu.align-right li:hover > ul{
+  left: auto;
+  right: 0;
+}
+/*.header .menu-name-main-menu li:hover > ul > li{
+  height: 39px;
+}*/
+.header .menu-name-main-menu ul ul ul{
+  margin-left: 100%;
+  top: 0 !important;
+}
+.header .menu-name-main-menu.align-right ul ul ul{
+  margin-left: 0;
+  margin-right: 100%;
+}
+.header .menu-name-main-menu ul ul li a{
+  border-bottom: 1px solid #42a2c5;
+  padding: 10px 21px;
+  width: 250px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  background: #42aad6;
+  text-align: left;
+  line-height: 18px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+.header .menu-name-main-menu ul ul li:last-child > a,
+.header .menu-name-main-menu ul ul li.last-item > a{
+  border-bottom: 0;
+}
+.header .menu-name-main-menu ul ul li:hover > a,
+.header .menu-name-main-menu ul ul li a:hover{
+  color: #ffffff; background-color:#46a4c1 ;
+}
+/*.header .menu-name-main-menu ul ul ul li a:hover{background-color:#388a9f ;}*/
+.header .menu-name-main-menu ul ul ul li a{
+  border-bottom: 1px solid #429dc3;
+
+}
+.header .menu-name-main-menu ul ul li.has-sub > a:after{
+  position: absolute;
+  top: 16px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #fff;
+  content: '';
+}
+.header .menu-name-main-menu.align-right ul ul li.has-sub > a:after{
+  right: auto;
+  left: 11px;
+}
+.header .menu-name-main-menu ul ul li.has-sub > a:before{
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #fff;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.header .menu-name-main-menu.align-right ul ul li.has-sub > a:before{
+  right: auto;
+  left: 14px;
+}
+.header .menu-name-main-menu ul ul > li.has-sub:hover > a:before{
+  top: 17px;
+  height: 0;
+}
+.header .menu-name-main-menu.small-screen{
+  width: 100%;
+}
+.header .menu-name-main-menu.small-screen  ul{
+  width: 100%;
+  display: none;
+  position: absolute;
+  width: 300px;
+  background: linear-gradient(18deg, #86c591, #46b4de);
+  right: 0;
+  top: 59px; z-index:9999;
+}
+.header .menu-name-main-menu.small-screen.align-center > ul{
+  text-align: left;
+}
+.header .menu-name-main-menu.small-screen ul li{
+  width: 100%;
+  /*border-top: 1px solid rgba(120, 120, 120, 0.2);*/
+}
+.header .menu-name-main-menu.small-screen ul ul li,
+.header .menu-name-main-menu.small-screen li:hover > ul > li{
+  height: auto;
+}
+.header .menu-name-main-menu.small-screen ul li a, .header .menu-name-main-menu.small-screen ul ul li a{
+  width: 100%;
+  border-bottom: 0;
+  padding:13px 15px; display: block; color:#eaeaea; font-weight:400;
+}
+.header .menu-name-main-menu.small-screen  ul ul{ top: 0px; }
+.header .menu-name-main-menu.small-screen > ul > li{
+  float: none;
+  display: block;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+}
+.header .menu-name-main-menu.small-screen ul ul li a{
+  padding: 12px 0 12px 25px;
+}
+.header .menu-name-main-menu ul ul ul li a{
+    background-color:#46a4c1 ;
+}
+/*.header .menu-name-main-menu ul ul ul li:hover a{
+    background-color:#46a0c4 ;
+}*/
+.header .menu-name-main-menu.small-screen ul ul ul li a{
+  padding-left: 35px;
+}
+
+.header .menu-name-main-menu.small-screen ul ul li a{
+  color: #eaeaea;
+  background: none;
+}
+.header .menu-name-main-menu.small-screen ul ul li:hover > a,
+.header .menu-name-main-menu.small-screen ul ul li.active > a,
+.header .menu-name-main-menu.small-screen ul li a.active,
+.header .menu-name-main-menu.small-screen ul ul li a,
+.header .menu-name-main-menu.small-screen ul li .submenu-opened + a{
+  color: #ffffff;
+}
+.header .menu-name-main-menu.small-screen ul ul li.active > a,
+.header .menu-name-main-menu.small-screen ul li a.active,
+.header .menu-name-main-menu.small-screen ul li .submenu-opened + a{font-weight:800;}
+.header .menu-name-main-menu.small-screen ul ul,
+.header .menu-name-main-menu.small-screen ul ul ul,
+.header .menu-name-main-menu.small-screen.align-right ul ul{
+  position: relative;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-align: left;box-shadow: none;background: none;
+}
+.header .menu-name-main-menu.small-screen > ul > li.has-sub > a:after,
+.header .menu-name-main-menu.small-screen > ul > li.has-sub > a:before,
+.header .menu-name-main-menu.small-screen ul ul > li.has-sub > a:after,
+.header .menu-name-main-menu.small-screen ul ul > li.has-sub > a:before{
+  display: none;
+}
+.header .menu-name-main-menu.small-screen #menu-button{
+  display: block;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 30px;
+  height: 18px; margin: 40px 15px 0 0;
+}
+.header .menu-name-main-menu.small-screen #menu-button::after{
+  position: absolute;
+  top: 6px;
+  right: 4px;
+  display: block;
+  height: 4px;
+  width: 25px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  content: '';
+}
+.header .menu-name-main-menu.small-screen #menu-button::before{
+  position: absolute;
+  top: 0;
+  right: 4px;
+  display: block;
+  height: 2px;
+  width: 25px;
+  background: #fff;
+  content: '';
+}
+.header .menu-name-main-menu.small-screen #menu-button.menu-opened:after{
+  top: 20px;
+  border: 0;
+  height: 2px;
+  width:30px;
+  background: #ffffff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); right: 6px;
+}
+.header .menu-name-main-menu.small-screen #menu-button.menu-opened:before{
+  top:20px;
+  background: #ffffff;
+  width:30px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); right: 6px;
+}
+.header .menu-name-main-menu.small-screen .submenu-button{
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: 0;
+  display: block;
+  /*border-left: 1px solid rgba(120, 120, 120, 0.2);*/
+  height:43px;
+  width: 43px;
+  cursor: pointer;
+}
+.header .menu-name-main-menu.small-screen .submenu-button.submenu-opened{
+  background:#54b8ce;
+}
+.header .menu-name-main-menu.small-screen ul ul .submenu-button{
+  height: 43px;
+  width: 43px;
+}
+.header .menu-name-main-menu.small-screen .submenu-button:after{
+  position: absolute;
+  top:16px;
+  right:15px;
+  width:0;
+  height:0; 
+  display: block;
+/*  background: #fff;*/
+  content: '';
+  border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-top: 6px solid #fff /*#409ab5*/;
+}
+
+.header .menu-name-main-menu.small-screen ul ul .submenu-button:after{
+  top: 18px;
+  right:15px;
+}
+
+.header .menu-name-main-menu.small-screen .submenu-button.submenu-opened:after{
+  background: #ffffff;
+}
+
+.header .menu-name-main-menu.small-screen .submenu-button:before{
+  position: absolute;
+  top: 16px;
+  right:15px;
+  display: block;
+  width: 0;
+  height:0;
+  /*background: #fff;*/
+  content: ''; border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-bottom: 6px solid #fff; display: none;
+}
+.header .menu-name-main-menu.small-screen ul ul .submenu-button:before{
+  top:15px;
+  right:15px;
+}
+.header .menu-name-main-menu.small-screen .submenu-button.submenu-opened:after{
+  display: none;
+}
+.header .menu-name-main-menu.small-screen .submenu-button.submenu-opened:before{
+  display: block;
+}
+.header .menu-name-main-menu.small-screen.select-list{
+  padding: 5px;
+}

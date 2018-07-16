@@ -1,0 +1,433 @@
+@media only screen and (max-width:1280px){
+.header, #page, .breadcrumb{ max-width: 1280px }
+.header .menu-name-main-menu > ul > li {max-width: 130px;}
+.header .menu-name-main-menu > ul > li > a {padding: 0px 12px;}
+.header__inner .header-action-section {margin:0;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right h2{font-size: 60px;	line-height: 70px;}
+#footer{min-height:500px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a{ font-size:18px;}
+#views-exposed-form-news-page-latest-news-page{max-width: 420px;}
+#views-exposed-form-news-page-latest-news-page select{width: 180px;}
+.latest-news-list .latest-news li .news-header-section{ padding:30px; }
+.header-action-section .custom-search-section #search-block-form{width: 650px;}
+.box-col-4 .tiles-item .tiles-img {height:30vh;}
+.section-health-security-corps .health-security-block .details-section{max-height: 250px;}
+}
+@media only screen and (max-width:1200px){
+.header .menu-name-main-menu > ul > li {max-width: 110px;}
+.header-action-section .custom-search-section #search-block-form{width: 590px;}
+.header, #page, .breadcrumb{ max-width: 1200px }
+#footer{min-height:460px;}
+#footer::after{top: 20px;left: 20px;}
+.header__inner .rsbtn .rspart{margin: 30px 10px;}
+.header-action-section .custom-search-section .custom-search-icon{margin: 35px 15px;}
+.header .menu-name-main-menu > ul > li > a{font-size: 11px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a{ font-size:16px;}
+.latest-news-list .latest-news li .news-header-section{padding: 20px 30px;}
+.latest-news-list .latest-news li:first-child .views-field-field-latest-news-image{width: 50%;}
+.latest-news-list .latest-news li:first-child .news-header-section h3{font-size: 20px;margin: 0;}
+.latest-news-list .latest-news li:first-child .news-header-section{bottom: 20px;}
+.latest-news-list .latest-news li .news-header-section h3{font-size: 20px; line-height:30px; margin: 0 0 10px;}
+.view-our-team-page .item-list ul.our-team-member-profile li .views-field-title{ font-size:20px;}
+.tiles-list-section .tiles-item .tiles-img {height: 60vh;}
+.box-col-4 .tiles-item .tiles-img {height: 20vh;}
+}
+@media only screen and (max-width:1100px){
+.header .menu-name-main-menu > ul > li {max-width: 100px;}
+ .header .menu-name-main-menu > ul > li > a {padding: 0px 6px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li{padding: 16px !important;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li p{ font-size:11px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a{ font-size:14px;}
+.section-mmv .content-with-img img{max-width:370px;}
+.news-header-section p{font-size: 14px; line-height: 22px;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li .views-field-title span.field-content{font-size:20px;}
+.header-action-section .custom-search-section #search-block-form{width:570px;}
+.tiles-list-section .tiles-item .tiles-img {height:45vh;}
+.box-col-4 .tiles-item {padding:10px !important;}
+.box-col-4 .tiles-item .tiles-img {height:30vh;}
+}
+@media only screen and (max-width:1024px){
+
+.custom-header-right {float: right;}
+.header__inner .header-action-section {float: right;}
+.header .header__inner .header__region{ float: right;width: auto;padding-left: 0;  margin:40px 34px 0 0;}
+.breadcrumb{ padding-left: 0; margin: 0 0px 0 0;}
+.header-action-section .custom-search-section .custom-search-icon {background: url(../images/search.svg) #ffe700 no-repeat center;}
+.header .menu-name-main-menu.small-screen #menu-button{ margin:0; }
+.header-action-section .custom-speaker-section .rsbtn .rspart{margin: 30px 10px; float:left;}
+.header__inner .header-action-section .custom-search-section{ float:right;}
+.header__inner .header-action-section .custom-search-icon{margin: 35px 15px;}
+.header .menu-name-main-menu.small-screen .menu-opened{z-index: 999999;top: -41px;background: #409ab5;height: 43px !important;width: 43px !important;right: -10px;position: absolute !important;}
+.header .menu-name-main-menu > ul > li:hover > a{background:none !important;}
+.header .menu-name-main-menu.small-screen ul{right: -10px;	top: -41px; z-index: 999; box-shadow: 0px 0px 10px 0 rgba(0,0,0,0.5);}
+.header__inner .header-action-section .custom-search-section{position: inherit;}
+.header-action-section .custom-search-section #search-block-form{width:65%;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{min-height: 350px;}
+#footer{min-height:410px;}
+.breadcrumb{display: none;}
+.key-investment-section ul li{min-height:180px;}
+.section-mmv .content-with-img img{max-width: 300px;}
+.latest-news-list .latest-news li:first-child .views-field-field-latest-news-image{width: 100%;}
+.views-exposed-form .views-exposed-widget{float: left;	padding: 0 20px 0 0;}
+#views-exposed-form-news-page-latest-news-page{max-width: 100%;}
+#views-exposed-form-news-page-latest-news-page select{width: 258px; margin:0px; font-size: 20px;}
+#views-exposed-form-news-page-latest-news-page .views-widget-sort-order label{display: none;}
+#views-exposed-form-news-page-latest-news-page label{float: left; line-height:45px;}
+.views-exposed-form .views-exposed-widget:first-child .views-widget{float: right;margin-left: 20px;}
+.view-our-team-page .item-list ul.our-team-member-profile li .views-field-title{font-size: 17px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a.click-to-description{ display:inline-block; position:static; }
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li {padding: 10px 0 !important;
+margin: 0 !important;}
+#cboxMiddleLeft {width: auto;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li::after {display: none;}
+#views-exposed-form-news-page-latest-news-page {position: static; width: 100%;}
+#views-exposed-form-news-page-latest-news-page {margin-top: 21px;margin-bottom: 8px;display: inline-block;}
+.section-news #main .block{margin-bottom:0;}
+#views-exposed-form-news-page-latest-news-page label {font-size: 20px;}
+.section-health-system-research article h2 {margin: 0;}
+.section-health-system-research article h3{ margin-top:10px; }
+.section-health-system-research article h4 {margin: 10px 0 10px;}
+.section-health-system-research article h6 {margin: 0;}
+.section-health-system-research article .number-order ul li p {padding-bottom: 20px;}
+.bootstrap-tab {margin-top: 20px;}
+}
+@media only screen and (max-width: 1024px) and (min-width:992px){/* profile page (yg) */
+  .profile-item-list > ul > li{width: 50%;}
+}
+@media only screen and (max-width: 1024px) and (min-width:740px){
+.front .header #logo, .header #logo{padding: 20px;max-width: 400px;}
+.header-action-section .custom-speaker-section .rsbtn .rspart{margin:/*24px 20px 16px*/35px 35px 30px;float: left; width:60px ; height:60px;}
+.header .header__inner .header__region{ float: right;width: auto;padding-left: 0;/* margin: 35px 25px 0 0;*/}
+.breadcrumb{ padding-left: 0; margin: 0 0px 0 0;}
+.header__inner .header-action-section{margin:0 32px 0 0;}
+.header__inner .header-action-section .custom-search-icon{margin:25px 35px; width:50px; height:60px;}
+/*==================*/
+.header .menu-name-main-menu.small-screen #menu-button{display: block; padding: 0; color: #fff; cursor: pointer; font-size: 0px; text-transform: uppercase; font-weight: 700; width: 52px; height: 36px;}
+.header .menu-name-main-menu.small-screen #menu-button::after{position: absolute; top: 15px; right: 4px; display: block; height: 13px; width: 52px; border-top: 2px solid #fff; border-bottom: 2px solid #fff; content: '';}
+.header .menu-name-main-menu.small-screen #menu-button::before{position: absolute; top: 0; right: 4px; display: block; height: 2px; width: 52px; background: #fff; content: '';}
+.header #block-menu-block-govcms-menu-block-main-menu{width:52px;}
+/*====================*/
+.header .menu-name-main-menu.small-screen ul {right: -34px;}
+.header .menu-name-main-menu.small-screen .menu-opened {right: -34px !important;}
+.header-action-section .custom-search-section #search-block-form {padding: 22px 85px 33px 33px;}
+.header-action-section .custom-search-section #search-block-form #edit-actions #edit-submit,
+.header-action-section .custom-search-section #search-block-form #edit-actions #edit-submit--2 {width: 40px; height: 40px;}
+h1 {font-size: 40px;}
+}
+@media only screen and (max-width:1024px) and (min-width:450px){
+.header .menu-name-main-menu.small-screen ul {width: 605px; top: 32px;}
+.header .menu-name-main-menu.small-screen ul li a, .header .menu-name-main-menu.small-screen ul ul li a {padding: 0px 35px;font-size:18px;line-height:70px;}
+.header .menu-name-main-menu.small-screen ul ul li a{ padding-left:50px; }
+.header .menu-name-main-menu.small-screen .submenu-button{right: 10px;	top:18px; border-left: none;}
+.header .menu-name-main-menu.small-screen .submenu-button.submenu-opened{background: none;}
+.header .menu-name-main-menu.small-screen ul ul ul li a{padding-left:65px;}
+.header .menu-name-main-menu.small-screen .menu-opened{z-index: 999999; top: -41px; background: #409ab5; height:73px !important; width:73px !important; right: -10px; position: absolute !important;}
+.header .menu-name-main-menu.small-screen #menu-button.menu-opened:after{top:35px; border: 0; height: 2px; width:52px; background: #ffffff; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); right:10px;}
+.header .menu-name-main-menu.small-screen #menu-button.menu-opened:before{top:35px; background: #ffffff; width:52px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); right:10px;}
+}
+@media only screen and (max-width:991px){
+.header-action-section .custom-search-section #search-block-form{width:100%;}
+.front .panel-col-last .pane-home-latest-news{padding: 25px 40px 200px; margin-top: -100px;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right{right: inherit;	left:25px; bottom:90px;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right h2{font-size:45px;	line-height: 60px;}
+#block-views-slideshow-block .view-id-slideshow .rslides_tabs{bottom: inherit;	top: 50px;}
+.panel-2col-bricks .panel-col-last .inside{margin: 0 0 .5em 0;}
+.front .panel-col-first{display: none;}
+.front .panel-col-last{width:100%;	float: right;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item{margin: -200px auto 0px; width:100%;}
+.front #page #main #content .panel-col-last .pane-home-latest-news h2.pane-title{line-height: 30px;margin: 0 0 20px;border-bottom: 1px solid #fff;padding-bottom: 5px;}
+.front #page #main #content .view-home-latest-news .view-content ul li .field-content p{font-size: 14px;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{width: 50%; min-height: inherit;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(3){border-right:1px solid #eaeaea;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(2), .front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(4){border-right:none;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(4n+1){ clear: both; }
+.footer-bg-area .footer-content .content-left{display: none;}
+.footer-bg-area .footer-content .content-right{width:100%;	float: none;padding-left: 0;}
+.footer-bg-area .footer-content .content-right .footer-address p, .footer-bg-area .footer-content .content-right .footer-phone p{font-size: 14px;}
+#footer{min-height:300px;}
+#footer::after{width: 100px; height: 74px;	background-size: 100%;}
+.left-sidebar{ display:none; }
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li{min-height:auto;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li p{ font-size:12px;}
+.section-mmv .content-with-img img{max-width: 410px;}
+.latest-news-list .latest-news{margin: 0;}
+.latest-news-list .latest-news li{width: 100%; padding: 0 !important;}
+.latest-news-list .latest-news li .news-header-section{float: none; margin: -100px auto 0;}
+.latest-news-list .latest-news li:first-child .news-header-section h3,
+.latest-news-list .latest-news li .news-header-section h3{font-size: 34px; margin-bottom:15px; line-height: 45px;}
+.latest-news-list .latest-news li .news-header-section p{font-size: 20px;line-height: 30px;}
+.node-type-our-team .field-name-field-member-position .field-item{font-size:24px;}
+.node-type-latest-news .content-area {padding: 100px 30px 30px !important;}
+.node-type-latest-news h1.node-title {padding: 40px !important; line-height:40px; background: #f1fdff; position: relative; width: 90%; margin: -110px auto 0; display: inherit;
+}
+.node-type-latest-news h1.node-title{padding:35px 20px 22px !important; font-size:34px;}
+.node-type-latest-news p {padding: 0 22px 25px !important; margin: 0px auto; width: 90%;}
+.node-type-latest-news footer p {padding:0 !important; margin: 0px auto; width:100%;}
+.section-health-system-research article h5 {display:inline;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right {left: 95px;}
+.tiles-list-section .tiles-item .tiles-img {height: 60vh;}
+.box-col-4 .tiles-item .tiles-img {height:40vh;}
+}
+@media only screen and (max-width:768px){
+.front .panel-col-last{width:100%;	float: right;}
+.key-investment-section ul li{width:33.3%;}
+.content-with-img img{max-width: 200px;}
+.section-who .content-with-img img, .section-jee-alliance .content-with-img img
+{max-width: 260px;}
+.conference-list-section ul li{font:700 14px/26px 'montserrat';}
+.node-type-latest-news h1.node-title {line-height: 40px;}
+.section-health-security-digest article header h2 {font-size: 24px; line-height: 30px;}
+}
+
+@media only screen and (max-width:767px) and (min-width:750px){
+.select2-container--default .select2-selection--single .select2-selection__rendered {padding: 20px;line-height: 20px; font-size: 20px;}
+.form-type-select span .selection > span {width: 240px;}
+#views-exposed-form-news-page-latest-news-page label {float: left; line-height: 65px;}
+.views-exposed-form .views-exposed-widget {padding: 0;}
+#edit-field-news-category-target-id-wrapper {margin-right: 25px;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.select2-container--open .select2-dropdown--below {min-width: 240px; max-width:240px; position: absolute;top: 60px;}}
+.section-health-system-research article h5 {display: inline;}
+.section-about .content-area{padding:60px 60px 50px !important;}
+}
+@media only screen and (max-width:767px){
+.header{padding: 0;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right{bottom:50px; left:30px;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right h2{font-size:40px;	line-height:40px;}
+/* banner img in background */
+#block-views-slideshow-block .view-slideshow ul li{ height:100vh; }
+#block-views-slideshow-block .view-slideshow ul li img{ display: none; }
+#block-views-slideshow-block .view-slideshow ul li .group-left{ position: relative; }
+#block-views-slideshow-block .view-slideshow ul li .group-left:after{ background-repeat:no; background-position: top center; width: 100%; height:100vh; display: block;  content:'';position: absolute; left: 0; top: 0;background-size: cover;}
+#block-views-slideshow-block .view-slideshow ul li:first-child .group-left:after{background-image: url(http://drupal.worldwebdev.in/govcms/sites/default/files/styles/feature_article/public/images/slide/2_1.jpg?itok=2963POok)}
+#block-views-slideshow-block .view-slideshow ul li:nth-child(2) .group-left:after{background-image: url(http://drupal.worldwebdev.in/govcms/sites/default/files/styles/feature_article/public/images/slide/1_1.jpg?itok=v1M5ozw6)}
+#block-views-slideshow-block .view-slideshow ul li:nth-child(3) .group-left:after{background-image: url(http://drupal.worldwebdev.in/govcms/sites/default/files/styles/feature_article/public/images/slide/3_0.jpg?itok=9M73t79R)}
+#block-views-slideshow-block .view-slideshow ul li:nth-child(4) .group-left:after{background-image: url(http://drupal.worldwebdev.in/govcms/sites/default/files/styles/feature_article/public/images/slide/4_1.jpg?itok=cHUm-Xbw)}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right {width: 90%;}
+/* banner end*/
+.front #page #main #content .panel-col-last .pane-home-latest-news h2.pane-title{font:300 24px/40px 'montserrat'; padding-bottom: 17px; margin:0 0 28px;}
+.front #page #main #content .view-home-latest-news .view-content ul li span.field-content a {font-size: 34px;line-height: 45px;margin-bottom: 16px;display: inline-block;}
+.front #page #main #content .view-home-latest-news .view-content ul li .field-content p{margin-top: 10px; font-size:22px; line-height: 36px;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li .views-field-title span.field-content{font-size:24px;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{min-height: 320px;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(2n+1){clear: both;}
+.front .panel-col-last .pane-home-latest-news {background: linear-gradient(-18deg, #91c984, #68bdb6); padding: 22px 40px 202px;margin-top: -100px;width: 100%;float: right;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right h2 {font-size: 65px; line-height: 65px;  }
+#block-views-slideshow-block .view-id-slideshow .rslides_tabs li.rslides_here a { font:30px/40px 'dosisbold'; }
+#block-views-slideshow-block .view-id-slideshow .rslides_tabs li > a{ font-size:20px; }
+.section-mmv .content-with-img img{max-width: 310px;}
+.section-news #main .block{margin-bottom:0;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right {left:25px;}
+.latest-news-list .latest-news li .news-header-section {padding: 33px 30px 0 30px;}
+.latest-news-list .latest-news li{margin-bottom: 34px !important;}
+h1 {margin-top: 24px; margin-bottom: 0;display: inline-block;}
+.content-area p, .content-with-img {font-size: 20px;}
+/* profile page (yg) */
+.profile-item-list > ul > li{width: 50%;}
+}
+@media only screen and (max-width:739px){
+.header #block-menu-block-govcms-menu-block-main-menu {width: 30px;}
+.header .header__inner .header__region {margin: 40px 10px 0 5px;}
+h1 {font-size: 30px;}
+}
+@media only screen and (max-width:749px){
+.front .panel-col-last .pane-home-latest-news{padding: 25px 30px 200px;}
+#footer{min-height: 260px;}
+h1{font-size:24px;line-height: 50px;}
+h2, .section-national-regulators .content-area h2.national-heading {font-size: 30px;line-height: 50px;}
+.section-national-regulators .content-area h2.national-heading {padding: 11px 40px 7px;}
+h3{font:300 24px/30px 'montserrat';}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(2n+1){ clear: both; }
+.content-area{padding: 50px 40px !important;}
+.content-area p{padding: 10px 0 10px;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right h2 {font-size: 55px; line-height: 65px;}
+.section-national-regulators .content-with-img{padding: 30px 40px; }
+.content-with-img + .page-content-line{padding: 0 30px 50px;}
+.conference-list-section h3{font:300 24px/30px 'montserrat';}
+.header .menu-name-main-menu.small-screen ul{ width:550px; }
+#views-exposed-form-news-page-latest-news-page select{width: 220px; font-size: 16px;}
+.health-security-block .img-section{margin-right: 20px;max-width: 200px;}
+.section-health-security-corps .health-security-block{padding: 30px 40px; }
+.section-health-security-corps .health-security-block h2{font-size: 30px;line-height: 50px; margin: 0;}
+.section-health-security-corps .health-security-block h3{ font-size:24px; }
+.node-type-our-team .field-name-field-member-image{margin-right: 20px;max-width: 200px;}
+.section-jcu h3{ margin:0px; }
+.section-jcu .media-element-container .content img.media-element{ margin-bottom:10px; }
+.view-our-team-page .item-list ul.our-team-member-profile li{width: 50%;}
+.cta-section a{margin-right: 20px;}
+.latest-news-list .latest-news li .news-header-section {padding-bottom:20px;}
+.section-health-system-research article {padding: 14px 40px 30px;}
+.number-order ul ul{ margin: 0 0 0 29px;}
+.section-health-system-research article h2 {font: 400 30px/50px 'montserrat'; margin: 0;}
+.section-health-system-research article h5 {margin: 0;}
+.section-health-system-research article h3{ margin-top:10px; }
+.section-health-system-research article h4 {margin: 10px 0 10px;}
+.section-health-system-research article h6 {margin: 0;}
+.section-health-system-research article .number-order ul li p {padding-bottom: 20px; padding-left: 32px;}
+.node-type-latest-news .content-area {padding:70px 30px 30px !important;}
+.tiles-list-section .tiles-item .tiles-img {height:50vh;}
+.tiles-list-section .tiles-item {padding:0 10px !important;}
+.box-col-4 .tiles-item .tiles-img {height:60vh;}
+.box-col-4 .tiles-item {width: 50%; border-bottom: 1px solid #eaeaea;
+}
+.box-col-4 .tiles-item:nth-child(3){ border-bottom:0; }
+.node-members-profiles .field-name-field-member-position {font-size: 20px; left: 235px;}
+.node-members-profiles .field-name-field-member-image {max-width: 215px;}
+.section-health-security-digest article header,
+.section-health-security-digest article .field-type-text-with-summary,
+.section-news-category article header,
+.section-news-category article .field-type-text-with-summary{ float:none; width: 100%; margin-bottom: 20px;}
+.section-news-category article .field-type-text-with-summary p{ padding-top:0;}
+.section-health-security-digest article .field-name-field-health-sec-dig-image,
+.section-news-category article .field-name-field-latest-news-image {margin-right: 30px;}
+.node-type-health-security-digest-list h1 {line-height: 30px;}
+}
+@media only screen and (max-width:650px){
+#footer{min-height: 230px;}
+#footer::after{width: 80px;height: 59px;}
+.footer-bg-area{padding: 5px 10px;}
+.key-investment-section ul li{ min-height:150px; }
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li{ padding: 0 0 20px !important; width:100%;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li::after{left: 0;}
+.trg-link-section h3.trg-link{font-size: 16px; line-height: 24px;}
+.our-approach-section ul li.approach-item{width:100%;}
+.header .menu-name-main-menu.small-screen ul{ width:500px; }
+.form-type-select span .selection > span{width:180px;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.select2-container--open .select2-dropdown--below {min-width: 180px; max-width:180px;}
+#views-exposed-form-news-page-latest-news-page label {font-size: 16px; line-height: 50px;}
+.latest-news-list .latest-news li .news-header-section{float: none; margin: -80px auto 0;}
+.latest-news-list .latest-news li:first-child .news-header-section h3,
+.latest-news-list .latest-news li .news-header-section h3{font-size:24px; line-height:35px;}
+.latest-news-list .latest-news li .news-header-section p{font-size:15px;}
+.cta-section a{min-width: 210px;line-height: 20px;}
+}
+@media only screen and (max-width:568px){
+h1{font-size: 20px;line-height: 30px;margin: 20px 0 0;}
+h2, .section-national-regulators .content-area h2.national-heading{font-size:20px;line-height:30px;}
+.header #logo, .front .header #logo{padding: 20px; max-width: 220px;}
+#block-views-slideshow-block .view-id-slideshow .rslides_tabs{top:10px; margin-left: 20px !important;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right{bottom:30px;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right h2{font-size:53px;line-height:65px;}
+.front .panel-col-last .pane-home-latest-news{	padding: 15px 20px 190px; margin-top: -80px;}
+.front #page #main #content .view-home-latest-news .view-content ul li span.field-content a{font-size: 18px;line-height: 20px; margin-bottom: 0;}
+.front #page #main #content .panel-col-last .pane-home-latest-news h2.pane-title{line-height: 30px;margin: 0 0 10px;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{width:50%; min-height:190px; padding: 20px !important;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li img {max-width: 70px;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li .views-field-title span.field-content {font-size:12px; display: inline-block; line-height:18px;}
+#footer{min-height: 180px;}
+.content-area{padding: 25px !important;}
+.content-area p, .front #page #main #content .view-home-latest-news .view-content ul li .field-content p,
+.pdps-links ul li a, .content-with-img{font-size: 14px;line-height: 26px; padding-top:0;}
+.conference-list-section h3{font:300 18px/24px 'montserrat';}
+.section-grg .content-area h3{font:300 20px/30px 'montserrat';}
+.node-type-technical-reference-group .field-name-field-member-image {text-align: center;width: 100%; margin-bottom:20px; margin-right:0;}
+.node-type-technical-reference-group .field-name-field-member-image img{ display:inline-block;}
+.section-national-regulators .content-with-img{padding:25px; }
+.content-with-img + .page-content-line{padding: 0 25px 50px;}
+.content-with-img img, .section-find h2 + .content-with-img img, .section-mmv .content-with-img img{max-width: 200px; float: none; margin: 0px auto 20px;}
+.section-who .content-with-img img, .section-jee-alliance .content-with-img img {max-width: 260px; float: none; margin: 0px auto 20px;}
+.header .menu-name-main-menu.small-screen ul{ width:450px; }
+#views-exposed-form-news-page-latest-news-page label{float: none;display: block !important;}
+.views-exposed-form .views-exposed-widget:first-child .views-widget{margin-left: 0;}
+.health-security-block .img-section{float: none;text-align: center;width: 100%;margin: 0px auto 30px;}
+.section-health-security-corps .health-security-block h2{font-size:20px;line-height:30px;}
+.section-health-security-corps .health-security-block{padding: 25px;}
+.node-type-our-team .field-name-field-member-image{float: none;text-align: center;width: 100%;margin: 0px auto 30px;}
+.node-type-our-team .field-name-field-member-position .field-item{font-size:20px;}
+.section-national-regulators .content-area h2.national-heading {padding: 11px 20px 7px;}
+.cta-section a{min-width: 150px;line-height: 20px;padding: 11px 10px 10px;font-size: 14px;}
+.node-type-latest-news h1.node-title {line-height: 30px;}
+#block-views-slideshow-block .view-id-slideshow .rslides_tabs li.rslides_here a { font-size:22px;}
+.section-find .content-with-img img {margin:0px auto 20px;}
+.section-health-system-research article {padding: 14px 20px 30px;}
+.section-health-system-research article h2 {font: 400 20px/30px 'montserrat';}
+.section-health-system-research article h3 {font:300 18px/24px 'montserrat';}
+.section-health-system-research article h4 {font: 300 16px/20px 'montserrat';}
+.section-health-system-research article h5 {font: 800 16px/20px 'montserrat';}
+.section-health-system-research article h5 br{ display: none;}
+.section-health-system-research .number-order ul ul li {font: 800 16px/24px 'montserrat';}
+.node-type-latest-news h1.node-title {font-size: 28px; line-height: 35px !important;}
+.node-type-latest-news .content-area {padding:30px !important;}
+.node-members-profiles .field-name-field-member-position {position: static; text-align: center; padding: 20px 0;}
+.node-members-profiles .field-name-field-member-image {max-width: 100%; float: none; text-align: center; display: inline-block; width: 100%; margin: 0px auto;}
+.node-members-profiles .field-name-field-member-image img{ max-width:215px; text-align: center; margin:0px auto; }
+.section-health-security-digest article header h2 {font-size: 18px; line-height:24px;}
+.section-news-category article header h1 {font-size: 18px; line-height:30px; margin: 20px 0 0;}
+.bootstrap-tab .tabnav ul li a {padding: 0; font-size: 18px;}
+.node-type-health-security-digest-list .field-name-field-health-sec-dig-image {float: none; max-width: 100%; margin-left: 0; margin-bottom: 20px;}
+.node-type-health-security-digest-list h1 {line-height: 30px; margin-bottom: 20px;}
+.box-col-4 .tiles-item .tiles-img {height: 40vh;}
+}
+@media only screen and (max-width:500px){
+h3{font-size: 18px;line-height: 25px;}
+.key-investment-section ul li{width: 100%;	min-height: auto;text-align: center;padding: 0 80px 30px;}
+.latest-news-list .latest-news li:first-child .news-header-section h3,
+.latest-news-list .latest-news li .news-header-section h3{font-size: 18px;line-height: 25px;}
+.latest-news-list .latest-news li .news-header-section p{font-size: 14px;line-height: 24px;}
+.view-our-team-page .item-list ul.our-team-member-profile li{width:100%;}
+.node-type-latest-news h1.node-title {font-size: 18px; line-height: 25px !important; margin-top: -80px; padding: 25px 20px 22px !important;}
+/* profile page (yg) */
+ .profile-item-list > ul > li{width: 100%;}
+}
+@media only screen and (max-width:480px){
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li::after {display: block;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a.colorbox-inline { font-size: 12px !important;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right h2 {font-size:45px; line-height:55px;}
+.number-order ul ul {margin: 0 0 0 10px;}
+}
+@media only screen and (max-width:450px){
+h2{font-size:16px;line-height:20px;}
+.field-type-text-with-summary{padding-left: 0;}
+.field-name-field-member-image{text-align: center;width: 100%; margin-bottom:20px;}
+.field-name-field-member-image img{ display: inline-block; }
+#views-exposed-form-news-page-latest-news-page {text-align: center;}
+.views-exposed-form .views-exposed-widget { float: none;  padding: 0; display: inline-block;}
+#block-views-slideshow-block .view-id-slideshow .rslides_tabs li{padding: 0px 15px 0 0;}
+#footer{background-size: 129%;}
+.footer-bg-area .footer-content .content-right .footer-address p, .footer-bg-area .footer-content .content-right .footer-phone p{font-size: 12px;}
+.header .menu-name-main-menu.small-screen ul{ width:300px; top: 0;}
+#views-exposed-form-news-page-latest-news-page .views-widget-sort-order label{float: none;display: none !important;}
+.form-type-select span .selection > span{width: 270px;margin-top: 15px;}
+.select2-container--open .select2-dropdown--below {min-width: 270px; max-width:270px;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{padding: 10px !important;}
+.section-health-security-digest article .field-name-field-health-sec-dig-image, .section-news-category article .field-name-field-latest-news-image {max-width: 100%; float: none; margin-right: 0; margin-bottom: 20px;}
+}
+@media only screen and (max-width:400px){
+h3{font:300 16px/24px 'montserrat';}
+.header__inner .header-action-section{	margin: 0 10px 0;}
+.header__inner .header-action-section .custom-search-icon{margin: 35px 10px;}
+#block-views-slideshow-block .view-id-slideshow .rslides_tabs{margin-left: 10px !important;}
+#block-views-slideshow-block .view-id-slideshow .rslides_tabs li > a{font-size: 12px;}
+#block-views-slideshow-block .view-id-slideshow .rslides_tabs li.rslides_here a {font-size: 16px;}
+#footer{background-size: 137%; background-position: -20px 0;}
+#footer::after{width: 50px; height: 37px; left: 10px;}
+.key-investment-section h3{font:300 16px/24px 'montserrat';}
+.views-exposed-form .views-exposed-widget:first-child .views-widget{float: none;}
+.views-exposed-form .views-exposed-widget{float: none;	text-align: center; margin: 0px auto; padding:0;}
+.cta-section a{min-width: 100%;line-height: 20px;padding: 11px 10px 10px;font-size: 14px;margin: 0 0 20px;}
+#block-views-slideshow-block .view-id-slideshow ul li .group-right h2{font-size:40px;line-height:50px;}
+.header .header__inner .header__region {margin: 40px 10px 0 0;}
+.header #block-menu-block-govcms-menu-block-main-menu {margin-left: 0;}
+.header-action-section .custom-speaker-section .rsbtn .rspart{margin: /*30px 0 30px 10px*/30px 7px 30px 10px;}
+.tiles-list-section .tiles-item .tiles-img {height:30vh;}
+}
+@media only screen and (max-width:374px){
+.header-action-section .custom-speaker-section .rsbtn .rspart {margin: 30px 0;}
+}
+@media only screen and (max-width:359px){
+.header .header__inner .header__region {margin:40px 13px 0 7px;}
+.header__inner .header-action-section .custom-search-section {height: 50px; width:60px;}
+.header__inner .header-action-section .custom-search-icon {margin:10px 15px;}
+#header-speaker-icon {background:#409ab5; float: left;}
+.header__inner .header-action-section .custom-speaker-section {float: none;}
+.header-action-section .custom-speaker-section .rsbtn .rspart {margin: 5px 10px;}
+}
+@media only screen and (max-width:320px){
+.header .header__inner .header__region {margin: 40px 8px 0 2px;}
+#header-speaker-icon {background:#409ab5; float: left;}
+.header__inner .header-action-section .custom-speaker-section {float: none;}
+.header__inner .header-action-section .custom-search-section {height: 50px; width:50px;}
+.header__inner .header-action-section .custom-search-icon {margin: 10px;}
+.header-action-section .custom-speaker-section .rsbtn .rspart {margin:5px;}
+}
