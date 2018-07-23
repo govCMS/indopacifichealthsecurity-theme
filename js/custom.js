@@ -47,6 +47,10 @@ jQuery(document).ready(function( $){
         }, 0);
     });
 
+     $(document).ajaxComplete(function(){
+        $("select").select2({dropdownCssClass: 'custom-select2-dd',containerCssClass: 'custom-select2-container','minimumResultsForSearch': -1});
+    });
+
 	$(".custom-search-icon").click(function(){
         $("#search-block-form").show();
     	$("#search-block-form").animate({right: '0'});

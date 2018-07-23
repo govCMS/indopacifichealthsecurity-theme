@@ -231,7 +231,8 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 .no-results {width:100%;display:inline-block;text-align:center;}
 .no-results h2 {font-weight:800;font-size:24px; line-height:40px; margin-top:0px;}
 @media screen and (-webkit-min-device-pixel-ratio:0) {
- .select2-container--open .select2-dropdown--below {min-width:200px; max-width:200px; position:absolute;top:40px;}
+    .select2-container--open .select2-dropdown--below {min-width:200px; max-width:200px; position:absolute;top:40px;}
+    .select2-container--open .select2-dropdown--above {min-width:200px; max-width:200px; }
 }
 /*News Details Page*/
 .node-type-latest-news h1#page-title {display:none;}
@@ -423,7 +424,7 @@ text-decoration:underline; font-size:14px; -webkit-transition:all .5s ease-in-ou
 .section-where-we-work input#edit-submit-where-we-work{border-radius: 5px;background-color: #00acef;box-shadow: none;object-fit: contain;font-family: Montserrat;font-size: 12px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 2.5;letter-spacing: normal;text-align: center;color: #ffffff;margin: 0;padding: 5px 15px;}
 .section-where-we-work .form-type-select span .selection > span{background-color: #fff;border-radius: 5px;box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);margin: 0}
 .section-where-we-work .views-exposed-form .views-exposed-widget{display: inline-flex;}
-.section-where-we-work .view-filters label[for="edit-name-list"]{object-fit: contain;font-family: Montserrat;font-size: 20px;font-weight: 300;font-style: normal;font-stretch: normal;line-height: 2;letter-spacing: normal;color: #ffffff;padding: 0 15px 0 0;}
+.section-where-we-work .view-filters label[for="edit-field-organisation-country-tid"]{object-fit: contain;font-family: Montserrat;font-size: 20px;font-weight: 300;font-style: normal;font-stretch: normal;line-height: 2;letter-spacing: normal;color: #ffffff;padding: 0 15px 0 0;}
 .section-where-we-work .views-exposed-widgets {margin: 0;}
 .section-where-we-work .select2-container--default .select2-results>.select2-results__options{max-height: 190px}
 .section-where-we-work #views-exposed-form-where-we-work-page{display: inline-block;}
@@ -485,13 +486,13 @@ div#readspeaker_button1{
 @media screen and (min-width:768px) and (max-width:1279px){
     /* Start Where We Work */
     .section-where-we-work .view-filters{padding: 25px 7px 0 17px;right: 6%;}
-    .section-where-we-work .view-filters label[for="edit-name-list"]{font-size: 18px;line-height: 2.5;padding: 0}
+    .section-where-we-work .view-filters label[for="edit-field-organisation-country-tid"]{font-size: 18px;line-height: 2.5;padding: 0}
     .section-where-we-work .views-exposed-form .views-exposed-widget{padding: 0 10px 0 0;}
     /* End Where We Work */
 }
 @media screen and (min-width:415px) and (max-width:767px){
     .section-where-we-work .view-filters{position: initial;text-align: center;margin: 0;}
-    .section-where-we-work .view-filters label[for="edit-name-list"]{font-size: 18px;line-height: 3.5;}
+    .section-where-we-work .view-filters label[for="edit-field-organisation-country-tid"]{font-size: 18px;line-height: 3.5;}
     .section-where-we-work .form-type-select span .selection > span{margin: 0; margin-bottom: 15px;}
     .section-where-we-work #edit-field-program-target-id-wrapper label[for="edit-field-program-target-id"] {opacity: 0;object-fit: contain;font-family: Montserrat;font-size: 18px;font-weight: 300;font-style: normal;font-stretch: normal;line-height: 3.5;letter-spacing: normal;color: #ffffff;padding:0 12px 0 0;}
     .section-where-we-work .form-type-select span .selection > span {width: 270px;margin-top: 15px;}

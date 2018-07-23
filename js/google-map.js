@@ -69,7 +69,7 @@
 		          for (j in map_locations) {
 		          		
 			          	var marker = new google.maps.Marker({
-			              position: new google.maps.LatLng( map_locations[j].location.lat , map_locations[j].location.lon),
+			              position: new google.maps.LatLng( parseFloat(map_locations[j].location.latitude) , parseFloat(map_locations[j].location.longitude) ),
 			              map: map,
 			              html: map_locations[j].popup,
 			              icon: map_locations[j].pin,

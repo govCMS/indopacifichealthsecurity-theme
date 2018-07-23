@@ -7,8 +7,7 @@
  */
 function gov_subtheme_preprocess_views_view(&$vars) {
   $view = &$vars['view'];
-  // print '<pre>';
-  // print_r($view);exit;
+
   // Make sure it's the correct view
   if ($view->name == 'health_security_corps_map_block' || $view->name == 'health_system_research_organisation_map' || $view->name == 'national_regulators_block' || $view->name == 'where_we_work' ) {
   	
@@ -21,16 +20,15 @@ function gov_subtheme_preprocess_views_view(&$vars) {
     $locations = array();
 
 	foreach ($vars['view']->result as $row) {
-		
+
 	    $location = array();
 
-	    if ( isset($row->field_field_organisation_geo_location) ) {
+	    if ( isset($row->field_field_location_latitude) && isset( $row->field_field_location_longitude) ) {
 	      // Add geofield data.
-	      if (isset($row->field_field_organisation_geo_location )) {
-	        $location = $location + array( 'location' => $row->field_field_organisation_geo_location[0]['raw'] );
-	      } else {
-	        break;
-	      }
+
+	        $location = $location + array( 'location' => array( 'latitude' => $row->field_field_location_latitude[0]['raw']['value'], 'longitude' => $row->field_field_location_longitude[0]['raw']['value'] )
+	        	);
+
 	      // Add pin image url.
 	      if (isset($row->field_field_map_pin_image)) {
 	          $location = $location + array(

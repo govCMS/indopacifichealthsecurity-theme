@@ -27,5 +27,6 @@
  * @ingroup views_templates
  */
 ?>
-
-<div class="<?php print $classes; ?>" id="gov-google-map" style="height:450px;width: 100%;"></div>
+<div class="skip">
+<div class="rs_skip rs_preserve <?php print $classes; ?>" id="gov-google-map" style="height:450px;width: 100%;"></div>
+</div>

@@ -12,6 +12,7 @@ $accountid = 6248; /* Open read speaker customer id */
 $open_readspeaker_i18n = "en_au"; /* Open read speaker language value */
 $custom_style = "content"; /* Open read speaker custom button style */
 $custom_param = ""; /* Open read speaker custom parameters */
+
 ?>
 <div id="load"></div>
 <div class="main-page-box">
@@ -82,7 +83,7 @@ $custom_param = ""; /* Open read speaker custom parameters */
 
                             $output .= '<!-- RS_MODULE_CODE -->';
                             $output .= '<div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve"' . $custom_style . '>';
-                            $output .= '<a class="rsbtn_play" title="' . t('Listen to this page using ReadSpeaker') . '" accesskey="L" href="' . $http . '://app.eu.readspeaker.com/cgi-bin/rsent?customerid=' . $accountid . '&amp;lang=' . $open_readspeaker_i18n . '&amp;readid=' . variable_get('open_readspeaker_reading_area', 'rs_read_this') . '&amp;url=' . urlencode($request_path) . '">';
+                            $output .= '<a class="rsbtn_play" title="' . t('Listen to this page using ReadSpeaker') . '" accesskey="L" href="' . $http . '://app.eu.readspeaker.com/cgi-bin/rsent?customerid=' . $accountid . '&amp;lang=' . $open_readspeaker_i18n . '&amp;readid=content&amp;url=' . urlencode($request_path) . '">';
                             $output .= '<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>' . t('Listen') . '</span></span></span>';
                             $output .= '<span class="rsbtn_right rsimg rsplay rspart"></span>';
                             $output .= '</a></div>';
