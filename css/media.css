@@ -5,7 +5,7 @@
 .header__inner .header-action-section {margin:0;}
 #block-views-slideshow-block .view-id-slideshow ul li .group-right h2{font-size: 60px;	line-height: 70px;}
 #footer{min-height:500px;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a{ font-size:18px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li a{ font-size:18px;}
 #views-exposed-form-news-page-latest-news-page{max-width: 420px;}
 #views-exposed-form-news-page-latest-news-page select{width: 180px;}
 .latest-news-list .latest-news li .news-header-section{ padding:30px; }
@@ -22,7 +22,7 @@
 .header__inner .rsbtn .rspart{margin: 30px 10px;}
 .header-action-section .custom-search-section .custom-search-icon{margin: 35px 15px;}
 .header .menu-name-main-menu > ul > li > a{font-size: 11px;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a{ font-size:16px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li a{ font-size:16px;}
 .latest-news-list .latest-news li .news-header-section{padding: 20px 30px;}
 .latest-news-list .latest-news li:first-child .views-field-field-latest-news-image{width: 50%;}
 .latest-news-list .latest-news li:first-child .news-header-section h3{font-size: 20px;margin: 0;}
@@ -35,9 +35,9 @@
 @media only screen and (max-width:1100px){
 .header .menu-name-main-menu > ul > li {max-width: 100px;}
  .header .menu-name-main-menu > ul > li > a {padding: 0px 6px;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li{padding: 16px !important;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li p{ font-size:11px;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a{ font-size:14px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li{padding: 16px !important;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li p, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li p{ font-size:11px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a, .view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a{ font-size:14px;}
 .section-mmv .content-with-img img{max-width:370px;}
 .news-header-section p{font-size: 14px; line-height: 22px;}
 .front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li .views-field-title span.field-content{font-size:20px;}
@@ -75,11 +75,11 @@
 #views-exposed-form-news-page-latest-news-page label{float: left; line-height:45px;}
 .views-exposed-form .views-exposed-widget:first-child .views-widget{float: right;margin-left: 20px;}
 .view-our-team-page .item-list ul.our-team-member-profile li .views-field-title{font-size: 17px;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a.click-to-description{ display:inline-block; position:static; }
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li {padding: 10px 0 !important;
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a.click-to-description, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li a.click-to-description{ display:inline-block; position:static; }
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li{padding: 10px 0 !important;
 margin: 0 !important;}
 #cboxMiddleLeft {width: auto;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li::after {display: none;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li::after, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li::after {display: none;}
 #views-exposed-form-news-page-latest-news-page {position: static; width: 100%;}
 #views-exposed-form-news-page-latest-news-page {margin-top: 21px;margin-bottom: 8px;display: inline-block;}
 .section-news #main .block{margin-bottom:0;}
@@ -147,8 +147,8 @@ h1 {font-size: 40px;}
 #footer{min-height:300px;}
 #footer::after{width: 100px; height: 74px;	background-size: 100%;}
 .left-sidebar{ display:none; }
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li{min-height:auto;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li p{ font-size:12px;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li{min-height:auto;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li p, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li p{ font-size:12px;}
 .section-mmv .content-with-img img{max-width: 410px;}
 .latest-news-list .latest-news{margin: 0;}
 .latest-news-list .latest-news li{width: 100%; padding: 0 !important;}
@@ -288,8 +288,8 @@ h3{font:300 24px/30px 'montserrat';}
 #footer::after{width: 80px;height: 59px;}
 .footer-bg-area{padding: 5px 10px;}
 .key-investment-section ul li{ min-height:150px; }
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li{ padding: 0 0 20px !important; width:100%;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li::after{left: 0;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li{ padding: 0 0 20px !important; width:100%;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li::after, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li::after{left: 0;}
 .trg-link-section h3.trg-link{font-size: 16px; line-height: 24px;}
 .our-approach-section ul li.approach-item{width:100%;}
 .header .menu-name-main-menu.small-screen ul{ width:500px; }
@@ -372,8 +372,8 @@ h3{font-size: 18px;line-height: 25px;}
  .profile-item-list > ul > li{width: 100%;}
 }
 @media only screen and (max-width:480px){
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li::after {display: block;}
-.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a.colorbox-inline { font-size: 12px !important;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li::after, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li::after {display: block;}
+.view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a.colorbox-inline, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li a.colorbox-inline { font-size: 12px !important;}
 #block-views-slideshow-block .view-id-slideshow ul li .group-right h2 {font-size:45px; line-height:55px;}
 .number-order ul ul {margin: 0 0 0 10px;}
 }

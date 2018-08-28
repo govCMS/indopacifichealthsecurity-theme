@@ -162,7 +162,7 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 .view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a.click-to-description:hover, .view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a:hover, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li a.click-to-description:hover, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li a:hover{opacity:0.8;}
 .view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li:after, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li:after{
  content:''; width:60px; background-color:#09afef; height:2px; display:block; position:absolute; bottom:20px; left:20px;}
-.view-health-system-research-projects .trg-wrapper-list ul.trg-list .views-field-field-details-page-link { height: 20px; }
+.view-health-system-research-projects .trg-wrapper-list ul.trg-list .views-field-field-details-page-link { min-height: 20px; }
 #cboxLoadedContent .hidden-full-description{display:block;}
 #cboxLoadedContent .hidden-full-description p{font:400 16px/30px 'montserrat';color:#2c3a4c;padding:0px 0 20px !important;}
 .page-node-196 #colorbox{width:80% !important;left:0 !important;right:0 !important;margin:0px auto !important;}
