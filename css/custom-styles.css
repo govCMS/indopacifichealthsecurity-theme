@@ -386,7 +386,7 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 .view-id-_health_security_digest_page .views-field-body h2{font-size: 17px;line-height: 27px; margin: 0 0 10px;}
 .section-health-security-digest article
 .field-name-field-health-sec-dig-image{max-width:40%;}
-.section-health-security-digest #content .views-row {margin:0; padding:20px 0 0; border-bottom:solid 1px #ddd; display:inline-block; border-top:none;}
+.section-health-security-digest #content .views-row {margin:0; padding:20px 0 0; border-bottom:solid 1px #ddd; display:block; border-top:none; font-size: 0;}
 .section-health-security-digest .links {float:right; clear:both;}
 .section-health-security-digest .links a {padding:19px 0 15px 24px; color:#7e91aa; font:800 14px/20px 'montserrat'; float:right; position:relative;}
 .section-health-security-digest .links a::after {content:''; position:absolute; right:0; top:0; width:110px; height:2px; background:#00acef; display:block;}
