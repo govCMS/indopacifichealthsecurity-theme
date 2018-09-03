@@ -306,13 +306,13 @@ h3{font:300 24px/30px 'montserrat';}
 @media only screen and (min-width:568px){
 .view-id-_health_security_digest_page .views-row-1{font-size: 0}
 .view-id-_health_security_digest_page .views-field-field-health-sec-dig-image{display:inline-block; width:16%; margin-right: 4%; vertical-align: top;}
-.view-id-_health_security_digest_page .views-field-field-health-sec-dig-image img{width: 100%; max-width: 150px; margin-left: auto;}
+.view-id-_health_security_digest_page .views-field-field-health-sec-dig-image img{width: 100%; max-width: 150px; margin-left: auto; padding-bottom: 20px;}
 .view-id-_health_security_digest_page .views-field-body{display:inline-block; width:80%; vertical-align: top;}
 .view-id-_health_security_digest_page .views-field-body p{font-size: 14px;}
 .view-id-_health_security_digest_page .views-field-body h2{font-size: 20px;line-height: 30px; margin: 0 0 10px;}
 }
 @media only screen and (max-width:568px) {
-.view-id-_health_security_digest_page .views-field-field-health-sec-dig-image img{width: 100%; max-width: 300px; margin: auto;}
+.view-id-_health_security_digest_page .views-field-field-health-sec-dig-image img{width: 100%; max-width: 300px; margin: auto; padding-bottom: 20px;}
 }
 @media only screen and (max-width:568px){
 h1{font-size: 20px;line-height: 30px;margin: 20px 0 0;}
