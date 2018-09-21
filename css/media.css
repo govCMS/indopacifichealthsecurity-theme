@@ -195,8 +195,8 @@ h1 {font-size: 40px;}
 #block-views-slideshow-block .view-id-slideshow ul li .group-right{bottom:50px; left:30px;}
 #block-views-slideshow-block .view-id-slideshow ul li .group-right h2{font-size:40px;	line-height:40px;}
 /* banner img in background */
-#block-views-slideshow-block .view-slideshow ul li{ height:100vh; }
-#block-views-slideshow-block .view-slideshow ul li img{ object-fit: cover;height: 100vh; }
+#block-views-slideshow-block .view-slideshow ul li{ height:60vh; }
+#block-views-slideshow-block .view-slideshow ul li img{ object-fit: cover;height: 60vh; }
 /*#block-views-slideshow-block .view-slideshow ul li .group-left{ position: relative; }
 #block-views-slideshow-block .view-slideshow ul li .group-left:after{ background-repeat:no; background-position: top center; width: 100%; height:100vh; display: block;  content:'';position: absolute; left: 0; top: 0;background-size: cover;}
 #block-views-slideshow-block .view-slideshow ul li:first-child .group-left:after{background-image: url(../images/slides/2_1.jpg)}
