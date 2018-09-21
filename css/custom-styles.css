@@ -4,6 +4,7 @@
 .main-page-box{overflow-x:hidden;}
 *{box-sizing:border-box;margin:0;padding:0;border:none;outline:none;}
 a{text-decoration:none;outline:none;color:#2c3a4c;}
+.field-type-text-with-summary a{text-decoration:underline;color:#000;}
 a:hover, a:focus{color:#2c3a4c;text-decoration:none;}
 a:focus{outline:none;}
 a[href*="tel"]{white-space:nowrap;}
