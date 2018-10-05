@@ -202,10 +202,10 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 .view-our-team-page .item-list ul.our-team-member-profile li:hover:after{height:4px;}
 /*News page*/
 .section-news .content-area h1#page-title{display:none;}
-.latest-news{margin:0 -20px;}
+.latest-news{margin:0 -20px; display:block; font-size:0;}
 .views-field-field-latest-news-image img{max-height:460px;object-fit:cover;}
 .views-row-first .views-field-field-latest-news-image img{min-height:267px}
-.latest-news-list .latest-news li{width:50%; padding:0 20px !important; float:left; position:relative; margin-bottom:60px !important;}
+.latest-news-list .latest-news li{width:50%; padding:0 20px !important; display:inline-block; vertical-align:top; float:left; position:relative; margin-bottom:60px !important;}
 .latest-news-list .latest-news li .views-field-field-latest-news-image img{width:100%;}
 .latest-news-list .latest-news li .news-header-section{background:#f1fdff;padding:33px 0px 27px 40px;position:relative; width:90%; float:right; margin-top:-100px;}
 .latest-news-list .latest-news li .news-header-section h3{margin:0 0 15px; font:800 24px/40px 'montserrat'; color:#2c3a4c;}
