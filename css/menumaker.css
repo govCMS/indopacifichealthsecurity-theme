@@ -54,7 +54,7 @@
 }
 .header .menu-name-main-menu > ul > li > a{
   padding:0px 21px;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0px;
   text-decoration: none;
   color: #fff;
@@ -403,4 +403,9 @@ border-bottom: 6px solid #fff; display: none;
 }
 .header .menu-name-main-menu.small-screen.select-list{
   padding: 5px;
+}
+@media only screen and (min-width: 1100px) {
+  .header .menu-name-main-menu > ul > li > a{
+    font-size: 16px;
+  }
 }

@@ -21,7 +21,6 @@
 #footer::after{top: 20px;left: 20px;}
 .header__inner .rsbtn .rspart{margin: 30px 10px;}
 .header-action-section .custom-search-section .custom-search-icon{margin: 35px 15px;}
-.header .menu-name-main-menu > ul > li > a{font-size: 11px;}
 .view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li a{ font-size:16px;}
 .latest-news-list .latest-news li .news-header-section{padding: 20px 30px;}
 .latest-news-list .latest-news li:first-child .views-field-field-latest-news-image{width: 50%;}
