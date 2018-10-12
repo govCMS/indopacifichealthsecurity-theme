@@ -71,7 +71,7 @@
 #views-exposed-form-news-page-latest-news-page, #views-exposed-form-in-media-page-latest-in-media-page{max-width: 100%;}
 #views-exposed-form-news-page-latest-news-page select, #views-exposed-form-in-media-page-latest-in-media-page select{width: 258px; margin:0px; font-size: 20px;}
 #views-exposed-form-news-page-latest-news-page .views-widget-sort-order label{display: none;}
-#views-exposed-form-news-page-latest-news-page label{line-height:45px;}
+#views-exposed-form-news-page-latest-news-page label{float:left; line-height:45px;}
 .views-exposed-form .views-exposed-widget:first-child .views-widget{float: right;margin-left: 20px;}
 .view-our-team-page .item-list ul.our-team-member-profile li .views-field-title{font-size: 17px;}
 .view-technical-reference-group-member-description .trg-wrapper-list ul.trg-list li a.click-to-description, .view-health-system-research-projects .trg-wrapper-list ul.trg-list li a.click-to-description{ display:inline-block; position:static; }
