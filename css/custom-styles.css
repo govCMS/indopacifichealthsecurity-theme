@@ -40,7 +40,7 @@ iframe{border:0 !important;}
 .header__inner .header-action-section .custom-search-section{float:left;position:relative;background:#ffe700;}
 /* .header__inner .header-action-section .custom-speaker-section{float:right;} */
 .header-action-section .custom-search-section #search-block-form{background:#ffe700;padding:12px 85px 33px 33px;width:730px;position:absolute;top:0;right:-10009px;z-index:9999;}
-.header-action-section .custom-search-section #search-block-form .form-item-search-block-form input{background:none;border:none;border-bottom:1px solid #555;width:100%;font-size:20px; line-height:50px;height:auto;}
+.header-action-section .custom-search-section #search-block-form .form-item-search-block-form input{background:none;border:none;border-bottom:1px solid #555;width:100%;font-size:20px; line-height:50px;height:55px;}
 .header-action-section .custom-search-section #search-block-form #edit-actions #edit-submit,
 .header-action-section .custom-search-section #search-block-form #edit-actions #edit-submit--2{background:url(../images/search.svg);font-size:0;border:none;width:30px;height:30px;box-shadow:none;position:absolute;right:30px;top:30px;}
 .header-action-section .custom-search-section .custom-search-icon {background:url(../images/search-icon.jpg) #ffe700 no-repeat center;font-size:0;border:none; width:28px; height:30px; box-shadow:none; margin:35px 20px; cursor:pointer;}
