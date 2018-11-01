@@ -211,10 +211,16 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 .latest-news-list .latest-news li .news-header-section h3{margin:0 0 15px; font:800 24px/40px 'montserrat'; color:#2c3a4c;}
 .latest-news-list .latest-news li .news-header-section h3 a{color:#2c3a4c;}
 .latest-news-list .latest-news li.views-row{border-top:0px !important;}
+@media only screen and (min-width: 992px) {
+    #content #block-views-exp-news-page-latest-news-page, #content #views-exposed-form-in-media-page-latest-in-media-page{display:none;}
+}
 .views-exposed-form .views-exposed-widget{float:left;padding:0 20px 0 0;}
 .views-exposed-form .views-exposed-widget:nth-child(3){padding-right:0;}
 #views-exposed-form-news-page-latest-news-page .views-widget-sort-by{display:none;}
 #views-exposed-form-news-page-latest-news-page, #views-exposed-form-in-media-page-latest-in-media-page {margin:0 0 0 auto !important;width:444px;z-index:9;}
+.sidebar #views-exposed-form-news-page-latest-news-page, .sidebar #views-exposed-form-in-media-page-latest-in-media-page {margin:0 0 0 auto !important;width:100%;z-index:9;}
+.sidebar #views-exposed-form-news-page-latest-news-page .views-widget-sort-order label {line-height: 5px;}
+#block-views-exp-news-page-latest-news-page h2 {display: none;}
 .form-type-select span{ display:inline;}
 .form-type-select span .selection > span{background:url(../images/arrow.png) no-repeat right center #e3eff1; appearance:none;  font:700 12px/20px 'montserrat'; -o-appearance:none; -webkit-appearance:none; -ms-appearance:none; -moz-appearance:none; padding:0; border-radius:10px; border:none; width:200px; height:auto; margin-top:5px; cursor:pointer;}
 .select2-container--default .select2-selection--single .select2-selection__rendered{color:#7e91aa;padding:6px 20px; height:auto; line-height:auto;}
@@ -225,7 +231,9 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 .select2-container--default .select2-search--dropdown .select2-search__field {border:1px solid #dde9eb;font-size:12px; color:#7e91aa; margin:0; padding:7px 13px;background:#e3eff1;}
 .select2-container--default .select2-results__option[aria-selected="true"] {background-color:#52b7d1; color:#fff;}
 .select2-dropdown{ border:none;}
-#views-exposed-form-news-page-latest-news-page label{font:800 14px/20px 'montserrat'; color:#7e91aa; text-transform:uppercase;}
+#views-exposed-form-news-page-latest-news-page label, #views-exposed-form-in-media-page-latest-in-media-page label{font:800 14px/20px 'montserrat'; color:#7e91aa; text-transform:uppercase;}
+#views-exposed-form-in-media-page-latest-in-media-page label {margin: 0;}
+#views-exposed-form-in-media-page-latest-in-media-page .form-item-sort-order label {margin-top: 15px;}
 #views-exposed-form-news-page-latest-news-page .views-widget-sort-order .form-type-select{margin:0px !important}
 #views-exposed-form-news-page-latest-news-page .views-widget-sort-order label{visibility:hidden; margin:0;}
 
