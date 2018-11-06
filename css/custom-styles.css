@@ -211,9 +211,9 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 .latest-news-list .latest-news li .news-header-section h3{margin:0 0 15px; font:800 24px/40px 'montserrat'; color:#2c3a4c;}
 .latest-news-list .latest-news li .news-header-section h3 a{color:#2c3a4c;}
 .latest-news-list .latest-news li.views-row{border-top:0px !important;}
-/*@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     #content #block-views-exp-news-page-latest-news-page, #content #views-exposed-form-in-media-page-latest-in-media-page{display:none;}
-}*/
+}
 .views-exposed-form .views-exposed-widget{float:left;padding:0 20px 0 0;}
 .views-exposed-form .views-exposed-widget:nth-child(3){padding-right:0;}
 #views-exposed-form-news-page-latest-news-page .views-widget-sort-by{display:none;}
