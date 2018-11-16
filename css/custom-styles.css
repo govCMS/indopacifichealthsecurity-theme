@@ -458,12 +458,13 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 
 /*Staff Profiles*/
 .node-type-technical-reference-group .field-name-field-member-image, .node-194 .field-name-field-image,
-.node-type-our-team .field-name-field-member-image {float: right; margin-left: 30px; margin-bottom: 0;}
+.node-type-our-team .field-name-field-member-image, .node-health-security-corps-profile .field-name-field-member-image-hsc {float: right; margin-left: 30px; margin-bottom: 0;}
 .node-type-technical-reference-group .field-name-field-member-image img, .node-194 .field-name-field-image img,
-.node-type-our-team .field-name-field-member-image img {width: 225px}
+.node-type-our-team .field-name-field-member-image img, .node-health-security-corps-profile .field-name-field-member-image-hsc img {width: 225px}
+.node-health-security-corps-profile .field-name-field-member-image-hsc .field-label {display:none;}
 @media only screen and (max-width: 568px) {
     .node-type-technical-reference-group .field-name-field-member-image, .node-194 .field-name-field-image,
-    .node-type-our-team .field-name-field-member-image {float: none; text-align: center; width: 100%; max-width: 225px; margin: 0 auto 30px;}
+    .node-type-our-team .field-name-field-member-image, .node-health-security-corps-profile .field-name-field-member-image-hsc {float: none; text-align: center; width: 100%; max-width: 225px; margin: 0 auto 30px;}
 }
 
 /* health-security-digest Start*/
