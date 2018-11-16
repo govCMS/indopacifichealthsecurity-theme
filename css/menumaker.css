@@ -53,12 +53,13 @@
   float: right;
 }
 .header .menu-name-main-menu > ul > li > a{
-  padding:0px 21px;
+  padding:0px 20px;
   font-size: 14px;
   letter-spacing: 0px;
   text-decoration: none;
   color: #fff;
-  font-weight:800;
+  font-weight:600;
+  font-family: 'montserrat';
   text-transform: capitalize;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
@@ -112,7 +113,7 @@
   text-align: right;
 }
 .header .menu-name-main-menu ul ul li{
-/*  height: 0;*/
+  /*  height: 0;*/
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
   -ms-transition: all .25s ease;
@@ -140,7 +141,7 @@
 }
 .header .menu-name-main-menu ul ul li a{
   border-bottom: 1px solid #42a2c5;
-  padding: 10px 21px;
+  padding: 10px 20px;
   width: 250px;
   font-size: 12px;
   text-decoration: none;
@@ -246,7 +247,7 @@
   padding: 12px 0 12px 25px;
 }
 .header .menu-name-main-menu ul ul ul li a{
-    background-color:#46a4c1 ;
+  background-color:#46a4c1 ;
 }
 /*.header .menu-name-main-menu ul ul ul li:hover a{
     background-color:#46a0c4 ;
@@ -363,11 +364,11 @@
   width:0;
   height:0;
   display: block;
-/*  background: #fff;*/
+  /*  background: #fff;*/
   content: '';
   border-left: 6px solid transparent;
-border-right: 6px solid transparent;
-border-top: 6px solid #fff /*#409ab5*/;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff /*#409ab5*/;
 }
 
 .header .menu-name-main-menu.small-screen ul ul .submenu-button:after{
@@ -388,8 +389,8 @@ border-top: 6px solid #fff /*#409ab5*/;
   height:0;
   /*background: #fff;*/
   content: ''; border-left: 6px solid transparent;
-border-right: 6px solid transparent;
-border-bottom: 6px solid #fff; display: none;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff; display: none;
 }
 .header .menu-name-main-menu.small-screen ul ul .submenu-button:before{
   top:15px;
@@ -404,8 +405,9 @@ border-bottom: 6px solid #fff; display: none;
 .header .menu-name-main-menu.small-screen.select-list{
   padding: 5px;
 }
+
 @media only screen and (min-width: 1100px) {
   .header .menu-name-main-menu > ul > li > a{
-    font-size: 16px;
+    font-size: 15px;
   }
 }

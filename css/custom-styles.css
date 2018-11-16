@@ -35,7 +35,7 @@ iframe{border:0 !important;}
 .front .header #logo{padding:39px 24px 22px 35px; border:none;}
 .header .header__inner .header__region{float:left;width:auto;text-align:left;padding-left:418px;margin:0;}
 .header #block-menu-block-govcms-menu-block-main-menu h2{display:none;}
-.header #block-menu-block-govcms-menu-block-main-menu{float:left; margin-left:21px;}
+.header #block-menu-block-govcms-menu-block-main-menu{float:left; margin-left:10px;}
 .header__inner .header-action-section{float:right;margin:0;padding:0;}
 .header__inner .header-action-section .custom-search-section{float:left;position:relative;background:#ffe700;}
 /* .header__inner .header-action-section .custom-speaker-section{float:right;} */
@@ -190,7 +190,7 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 .view-our-team-page .item-list ul{list-style-type:none; margin:0px; padding:0;}
 .view-our-team-page .item-list ul.our-team-member-profile li{float:left; width:33.3%; color:#2c3a4c; position:relative; padding:0 5px !important; -webkit-transition:all .5s ease-in-out; -moz-transition:all .5s ease-in-out; -ms-transition:all .5s ease-in-out; -o-transition:all .5s ease-in-out; transition:all .5s ease-in-out;}
 .view-our-team-page .item-list ul.our-team-member-profile li img{-webkit-filter:grayscale(100%); -moz-filter:grayscale(100%); -o-filter:grayscale(100%);  -ms-filter:grayscale(100%); filter:grayscale(100%); -webkit-transition:all .5s ease-in-out; -moz-transition:all .5s ease-in-out; -ms-transition:all .5s ease-in-out; -o-transition:all .5s ease-in-out; transition:all .5s ease-in-out; }
-  .view-our-team-page .item-list ul.our-team-member-profile li:hover img{-webkit-filter:grayscale(0%); -moz-filter:grayscale(0%);  -o-filter:grayscale(0%);  -ms-filter:grayscale(0%);   filter:grayscale(0%);}
+.view-our-team-page .item-list ul.our-team-member-profile li:hover img{-webkit-filter:grayscale(0%); -moz-filter:grayscale(0%);  -o-filter:grayscale(0%);  -ms-filter:grayscale(0%);   filter:grayscale(0%);}
 .view-our-team-page .item-list ul.our-team-member-profile li .views-field-title{font:400 22px/30px 'montserrat';}
 .view-our-team-page .item-list ul li .views-field-field-member-position ul li{font:300 12px/20px 'montserrat'; width:100%; position:static;}
 .view-our-team-page .item-list ul.our-team-member-profile li:after{content:; content:''; position:absolute; left:20px; bottom:0; width:110px; height:2px; background:#00acef; display:block; -webkit-transition:all .5s ease-in-out; -moz-transition:all .5s ease-in-out; -ms-transition:all .5s ease-in-out; -o-transition:all .5s ease-in-out; transition:all .5s ease-in-out;}
@@ -391,6 +391,71 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 .node-type-members-profiles .field-name-field-member-position{position:static; font:300 30px/40px 'montserrat'; color:#0085b9;}
 /* End Profile Page (yg) */
 
+/*HSC Member page*/
+.view-id-health_security_corps_members .our-team-member-profile {
+    list-style-type: none;
+    display: block;
+    margin-top: 1em;
+}
+
+.view-id-health_security_corps_members .our-team-members-profile-section {
+    display: inline-block;
+    width: 23%;
+    margin: 0 1% !important;
+    padding: 0 0 4px !important;
+}
+
+.view-id-health_security_corps_members .our-team-member-profile .views-row-first {
+    margin-left: 0 !important;
+}
+
+.view-id-health_security_corps_members .our-team-members-profile-section:hover {
+    background-color: #e2eef0;
+}
+
+.view-id-health_security_corps_members .views-field-field-member-image-hsc img {
+    width: 100%;
+}
+
+.view-id-health_security_corps_members .views-field-title {
+    padding: 20px 15px 15px;
+    font: 400 22px/30px 'montserrat';
+}
+
+.view-id-health_security_corps_members .views-field-nothing {
+    padding: 0 15px;
+}
+
+.view-id-health_security_corps_members .views-field-nothing a {
+    border-bottom: 2px solid #00acef;
+    padding: 0 0 5px;
+}
+
+.view-id-health_security_corps_members .our-team-members-profile-section:hover .views-field-nothing a {
+    border-bottom: 4px solid #00acef;
+    padding: 0 0 3px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .view-id-health_security_corps_members .our-team-members-profile-section {
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .view-id-health_security_corps_members .our-team-members-profile-section {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .view-id-health_security_corps_members .our-team-members-profile-section {
+        width: 90%;
+        margin: 0 5% !important;
+        padding: 0 0 4px !important;
+    }
+}
+
 /*Staff Profiles*/
 .node-type-technical-reference-group .field-name-field-member-image, .node-194 .field-name-field-image,
 .node-type-our-team .field-name-field-member-image {float: right; margin-left: 30px; margin-bottom: 0;}
@@ -444,8 +509,8 @@ text-decoration:underline; font-size:14px; -webkit-transition:all .5s ease-in-ou
 .section-where-we-work #content {min-height: 700px;}
 .section-where-we-work #gov-google-map{min-height: 700px;}
 @media screen and (max-width: 1200px){
-  .section-where-we-work #content {min-height: 600px;}
-  .section-where-we-work #gov-google-map{min-height: 600px;}
+    .section-where-we-work #content {min-height: 600px;}
+    .section-where-we-work #gov-google-map{min-height: 600px;}
 }
 .section-where-we-work .content-area{padding: 0 !important;position: relative;}
 .section-where-we-work h1.page__title.title{display: none;}
@@ -601,8 +666,8 @@ div#readspeaker_button1{
 }
 @media only screen and (min-width:1800px){
     .header .menu-name-main-menu > ul > li {max-width:inherit;}
-    .header .menu-name-main-menu > ul > li > a {padding:0px 40px;}
-    .header #block-menu-block-govcms-menu-block-main-menu {margin-left:50px;}
+    .header .menu-name-main-menu > ul > li > a {padding:0px 35px;}
+    .header #block-menu-block-govcms-menu-block-main-menu {margin-left:30px;}
     .header-action-section .custom-search-section .custom-search-icon {width:48px;}
     .header__inner .header-action-section {margin-left:30px;}
     .breadcrumb {padding:20px 31px 20px 451px;}
