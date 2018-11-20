@@ -16,7 +16,6 @@ jQuery(document).ready(function( $){
         }
 
         $(shortcutPanels).each(function() {
-            console.log(colIndex, rowIndex, $(this));
             $(this).removeClass("short-row-1 short-row-2 short-row-3 short-row-4");
             $(this).addClass("short-row-"+rowIndex);
 
@@ -35,8 +34,6 @@ jQuery(document).ready(function( $){
             }).get();
 
             var maxHeight = Math.max.apply(null, heights);
-
-            console.log(i, l, heights, maxHeight, maxHeight + boxPadding);
 
             $(".view-id-home_tiles_shortcut .tiles-row.short-row-"+i).css('min-height', (maxHeight + boxPadding) + 'px');
         }
