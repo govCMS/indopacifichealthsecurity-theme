@@ -4,6 +4,57 @@ jQuery(document).ready(function( $){
         format: "multitoggle"
     });
 
+    var refreshShortcutPanels = function() {
+        var eqPageWidth = $(window).width();
+        var shortcutPanels = $(".view-id-home_tiles_shortcut .tiles-row");
+        var colIndex = 1;
+        var rowIndex = 1;
+        var boxPadding = 82;
+
+        if (eqPageWidth <= 450) {
+            boxPadding = 22;
+        }
+
+        $(shortcutPanels).each(function() {
+            console.log(colIndex, rowIndex, $(this));
+            $(this).removeClass("short-row-1 short-row-2 short-row-3 short-row-4");
+            $(this).addClass("short-row-"+rowIndex);
+
+            if ( (eqPageWidth <= 991 && colIndex === 2) || (eqPageWidth >= 992 && colIndex === 4) ) {
+                rowIndex++;
+                colIndex = 1;
+            } else {
+                colIndex++;
+            }
+        });
+
+        for ( var i = 1, l = rowIndex; i <= l; i++ ) {
+            var heights = $(".view-id-home_tiles_shortcut .tiles-row.short-row-"+i).map(function() {
+                $(this).css('min-height', 'unset');
+                return $(this).height();
+            }).get();
+
+            var maxHeight = Math.max.apply(null, heights);
+
+            console.log(i, l, heights, maxHeight, maxHeight + boxPadding);
+
+            $(".view-id-home_tiles_shortcut .tiles-row.short-row-"+i).css('min-height', (maxHeight + boxPadding) + 'px');
+        }
+    };
+
+    refreshShortcutPanels();
+
+    var panelTimeout = (function(){
+        var timer;
+        return function(callback, ms){
+            clearTimeout (timer);
+            timer = setTimeout(callback, ms);
+        };
+    })();
+
+    $(window).resize(function() {
+        panelTimeout(refreshShortcutPanels, 500);
+    });
 
     /**Code to add accoridian effect to the menu*/
     $('.header .menu-name-main-menu li.active').addClass('open').children('ul').show();

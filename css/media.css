@@ -61,7 +61,6 @@
 .header .menu-name-main-menu.small-screen ul{right: -10px;	top: -41px; z-index: 999; box-shadow: 0px 0px 10px 0 rgba(0,0,0,0.5);}
 .header__inner .header-action-section .custom-search-section{position: inherit;}
 .header-action-section .custom-search-section #search-block-form{width:65%;}
-.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{min-height: 350px;}
 #footer{min-height:410px;}
 .breadcrumb{display: none;}
 .key-investment-section ul li{min-height:180px;}
@@ -138,12 +137,10 @@ h1 {font-size: 40px;}
 .panel-2col-bricks .panel-col-last .inside{margin: 0 0 .5em 0;}
 .front .panel-col-first{display: none;}
 .front .panel-col-last{width:100%;	float: right;}
-.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item{margin: -200px auto 0px; width:100%;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item{margin: -200px auto 20px; width:100%;}
 .front #page #main #content .panel-col-last .pane-home-latest-news h2.pane-title{line-height: 30px;margin: 0 0 20px;border-bottom: 1px solid #fff;padding-bottom: 5px;}
 .front #page #main #content .view-home-latest-news .view-content ul li .field-content p{font-size: 14px;}
-.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{width: 50%; min-height: inherit;}
-.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(3){border-right:1px solid #eaeaea;}
-.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(2), .front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(4){border-right:none;}
+.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{width: 49%; min-height: inherit;}
 .front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(4n+1){ clear: both; }
 .footer-bg-area .footer-content .content-left{display: none;}
 .footer-bg-area .footer-content .content-right{width:100%;	float: none;padding-left: 0;}
@@ -214,7 +211,6 @@ h1 {font-size: 40px;}
 .front #page #main #content .view-home-latest-news .view-content ul li span.field-content a {font-size: 34px;line-height: 45px;margin-bottom: 16px;display: inline-block;}
 .front #page #main #content .view-home-latest-news .view-content ul li .field-content p{margin-top: 10px; font-size:22px; line-height: 36px;}
 .front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li .views-field-title span.field-content{font-size:24px;}
-.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{min-height: 320px;}
 .front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li:nth-child(2n+1){clear: both;}
 .front .panel-col-last .pane-home-latest-news {background: linear-gradient(-18deg, #91c984, #68bdb6); padding: 22px 40px 202px;margin-top: -100px;width: 100%;float: right;}
 #block-views-slideshow-block .view-id-slideshow ul li .group-right h2 {font-size: 65px; line-height: 65px;  }
@@ -327,7 +323,6 @@ h2, .section-national-regulators .content-area h2.national-heading{font-size:20p
 .front .panel-col-last .pane-home-latest-news{	padding: 15px 20px 190px; margin-top: -80px;}
 .front #page #main #content .view-home-latest-news .view-content ul li span.field-content a{font-size: 18px;line-height: 20px; margin-bottom: 0;}
 .front #page #main #content .panel-col-last .pane-home-latest-news h2.pane-title{line-height: 30px;margin: 0 0 10px;}
-.front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li{width:50%; min-height:190px; padding: 20px !important;}
 .front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li img {max-width: 70px;}
 .front #page #main #content .view-home-tiles-shortcut .view-content ul.tile-item li .views-field-title span.field-content {font-size:12px; display: inline-block; line-height:18px;}
 #footer{min-height: 180px;}
