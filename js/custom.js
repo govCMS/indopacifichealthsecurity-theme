@@ -34,8 +34,13 @@ jQuery(document).ready(function( $){
             }).get();
 
             var maxHeight = Math.max.apply(null, heights);
+            var panelMinHeight = maxHeight + boxPadding;
 
-            $(".view-id-home_tiles_shortcut .tiles-row.short-row-"+i).css('min-height', (maxHeight + boxPadding) + 'px');
+            if (panelMinHeight < 408 && eqPageWidth > 1280) {
+                panelMinHeight = 408;
+            }
+
+            $(".view-id-home_tiles_shortcut .tiles-row.short-row-"+i).css('min-height', panelMinHeight + 'px');
         }
     };
 
