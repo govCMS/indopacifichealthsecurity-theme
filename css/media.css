@@ -11,7 +11,6 @@
 .latest-news-list .latest-news li .news-header-section{ padding:30px; }
 .header-action-section .custom-search-section #search-block-form{width: 650px;}
 .box-col-4 .tiles-item .tiles-img {height:30vh;}
-.section-health-security-corps .health-security-block .details-section{max-height: 250px;}
 }
 @media only screen and (max-width:1200px){
 .header .menu-name-main-menu > ul > li {max-width: 110px;}
