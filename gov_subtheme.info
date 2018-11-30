@@ -9,6 +9,7 @@ scripts[] = js/select2.full.min.js
 ;scripts[] = js/select2.min.js
 scripts[] = js/jquery.mCustomScrollbar.min.js
 scripts[] = js/custom.js
+scripts[] = js/slide.js
 
 ;stylesheets[all][] = responsive_navigation/responsive-nav.css
 stylesheets[all][] = css/menumaker.css
