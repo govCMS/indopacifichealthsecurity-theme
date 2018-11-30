@@ -237,6 +237,7 @@ footer .block{margin:0; padding-left:0; padding-right:0; padding-top:0.7em; padd
 #views-exposed-form-in-media-page-latest-in-media-page .form-item-sort-order label {margin-top: 15px;}
 #views-exposed-form-news-page-latest-news-page .views-widget-sort-order .form-type-select{margin:0px !important}
 #views-exposed-form-news-page-latest-news-page .views-widget-sort-order label{visibility:hidden; margin:0;}
+.post-source-date {font-size:1rem; font-weight:bold; font-style:italic;}
 
 /*Scrollbar start*/
 .select2-results {overflow:hidden; -webkit-overflow:hidden; -moz-overflow:hidden; -ms-overflow:hidden; -o-overflow:hidden; margin-right:0; position:relative;}
