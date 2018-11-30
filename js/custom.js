@@ -119,7 +119,6 @@ jQuery(document).ready(function( $){
         });
 
         var pageWidth = $(window).width();
-        window.console.log(pageWidth);
 
         if (pageWidth > 976) {
             $(".sidebars select").select2({dropdownCssClass: 'custom-select2-dd',containerCssClass: 'custom-select2-container','minimumResultsForSearch': -1});
@@ -227,35 +226,6 @@ jQuery(document).ready(function( $){
         }
     });
 
-    // auto slide code
-
-    /*$('ul.rslides').each(function(){
-
-     var $slides = $(this).find('li');
-
-     var numSlides = $slides.length - 1;
-
-     var i = 0;
-
-
-     var rotate = function(){
-
-     $slides.removeClass('active inactive');
-
-     $slides.eq(i).css({'display':'none','float':'none','position':'absolute'});
-
-     if(i == numSlides){
-     i = -1;
-     }
-
-     $slides.eq(++i).css({'display':'list-item','float':'left','position':'relative'});
-
-     var timer = window.setTimeout(rotate, 3000);
-     };
-
-     // rotate();
-     });*/
-
 
     $(document).on('click', 'div.gmnoprint img:first-child',function(){
         if( !$(this).parent().hasClass( 'gmnoprint'))
@@ -291,7 +261,7 @@ jQuery(document).ready(function( $){
 
     // Profile page equalheight
 
-    equalheight = function(container){
+    var equalheight = function(container){
 
         var currentTallest = 0,
             currentRowStart = 0,
@@ -320,7 +290,7 @@ jQuery(document).ready(function( $){
                 rowDivs[currentDiv].height(currentTallest);
             }
         });
-    }
+    };
 
     $(window).load(function() {
         equalheight('.member-profile .profiles-section');
@@ -335,16 +305,18 @@ jQuery(document).ready(function( $){
 
 
     document.onreadystatechange = function () {
-        var state = document.readyState
+        var state = document.readyState;
         if (state == 'interactive') {
             document.getElementById('body').style.visibility="hidden";
         } else if (state == 'complete') {
             setTimeout(function(){
                 document.getElementById('interactive');
                 document.getElementById('load').style.visibility="hidden";
-                document.getElementById('body').style.visibility="visible";
+                if (document.getElementById('body')) {
+                    document.getElementById('body').style.visibility="visible";
+                }
             },1500);
         }
-    }
+    };
 
 });
