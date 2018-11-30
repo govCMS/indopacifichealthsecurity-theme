@@ -1,3 +1,19 @@
+(function ($, Drupal, window, document, undefined) {
+
+    // Update responsiveSlides behaviour to support autoslide
+
+    Drupal.behaviors.responsiveSlides = {
+        attach: function(context, settings) {
+
+            $(".view-slideshow ul:not(.contextual-links)").responsiveSlides({
+                "auto": true
+            });
+
+        }
+    };
+
+})(jQuery, Drupal, this, this.document);
+
 jQuery(document).ready(function( $){
     $(".header .menu-name-main-menu").menumaker({
         title: "Menu",
