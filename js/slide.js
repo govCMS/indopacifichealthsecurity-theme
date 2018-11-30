@@ -11,7 +11,8 @@
 (function ($, window, i) {
     $.fn.responsiveSlides = function (options) {
 
-        window.console.log('Responsive Slides: ', this, $(this));
+        console.trace();
+        console.log(options);
 
         // Default settings
         var settings = $.extend({
@@ -161,12 +162,8 @@
                     };
                 }
 
-                window.console.log('Settings: ', settings);
-
                 // Auto cycle
                 if (settings.auto) {
-
-                    window.console.log('In auto');
 
                     startCycle = function () {
                         rotate = setInterval(function () {
